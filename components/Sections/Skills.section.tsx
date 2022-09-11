@@ -14,8 +14,8 @@ const Skills = () => {
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
-          <span className="text-white">Typescript </span>
-          &nbsp;as my main language
+          <span className="text-white">React </span>
+          &nbsp;is I'm currently learning into
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
@@ -30,17 +30,11 @@ const Skills = () => {
           &nbsp;as my designing tool
         </p>
 
-        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
-          <BsArrowRightShort size="30" />
-          <span className="text-white">Express JS </span>
-          &nbsp;as my API framework
-        </p>
       </div>
 
       <p className="text-lg font-medium text-slate-300">
         ...more skills include <span className="text-white">javascript</span>,{" "}
         <span className="text-white">reactjs</span>,{" "}
-        <span className="text-white">fastapi </span>{" "}
       </p>
     </div>
   );
