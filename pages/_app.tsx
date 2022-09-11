@@ -40,12 +40,21 @@ function MyApp({ Component, pageProps }: AppProps) {
           title: "Victor | Frontend Developer",
           description:
             "Hey! I'm Victor, A Frontend Developer, Editor and a Student!",
+            images: [
+              {
+                url: "https://i.imgur.com/WTOgWyP.png", 
+                width: 800,
+                height: 420,
+                alt: "Victor | Frontend Developer",
+              },
+            ],
         }}
         twitter={{
           handle: "@mzmznasipadang",
           site: "@mzmznasipadang",
           cardType: "summary_large_image",
         }}
+        
         additionalMetaTags={[
           {
             property: "keywords",
