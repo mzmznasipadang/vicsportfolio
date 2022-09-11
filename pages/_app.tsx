@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Victor, A Frontend Developer, Editor and a Student!",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
+              url: "https://github.com/mzmznasipadang/vicsportfolio/blob/main/public/og-image.png",
               width: 800,
               height: 420,
               alt: "Victor | Frontend Developer",
