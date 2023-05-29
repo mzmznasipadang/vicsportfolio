@@ -11,12 +11,12 @@ const About: NextComponentType = () => {
       <div>
         <p className="text-3xl font-bold text-white">Victor</p>
         <p className="mt-1 text-lg text-gray-300">
-          Frontend Developer, Editor and a Student
+          UI/UX Designer and College Student
         </p>
 
         <p className="mt-4 text-gray-400">
           Learning to build web apps, learning Frontend, BackEnd and UI/UX. <br /> Student at
-          BINUS University and taking courses online!
+          BINUS University!
         </p>
 
         <Link href="https://instagram.com/mzmznasipadang" passHref>

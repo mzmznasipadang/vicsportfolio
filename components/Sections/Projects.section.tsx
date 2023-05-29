@@ -32,6 +32,45 @@ const Projects: NextComponentType = () => {
             </div>
           </a>
         </Link>
+
+        <Link href="https://github.com/mzmznasipadang/Cotion-ISPM" passHref>
+          <a
+            className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] p-1 text-white duration-100 hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
+              <p className="text-xl font-semibold">Cotion Website</p>
+              <p>Built with Bootstrap and HTML</p>
+            </div>
+          </a>
+        </Link>
+
+        <Link href="https://github.com/mzmznasipadang/CuciDigital" passHref>
+          <a
+            className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#D8B4FE] to-[#818CF8] p-1 text-white duration-100 hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
+              <p className="text-xl font-semibold">CuciDigital</p>
+              <p>An Upcoming Project, built with ReactJS</p>
+            </div>
+          </a>
+        </Link>
+
+        <Link href="https://github.com/mzmznasipadang/LearnAR" passHref>
+          <a
+            className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] p-1 text-white duration-100 hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
+              <p className="text-xl font-semibold">LearnAR</p>
+              <p>A WWDC23 Swift Student Challenge Submission</p>
+            </div>
+          </a>
+        </Link>
       </div>
     </div>
   );

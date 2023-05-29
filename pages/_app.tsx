@@ -34,21 +34,21 @@ function MyApp({ Component, pageProps }: AppProps) {
                 `}
       </Script>
       <NextSeo
-        title="Victor | Frontend Developer"
-        titleTemplate="Victor | Frontend Developer"
-        defaultTitle="Victor | Frontend Developer"
-        description="Hey! I'm Victor, A Frontend Developer, Editor and a Student!"
+        title="Victor | UI/UX Designer"
+        titleTemplate="Victor | UI/UX Designer"
+        defaultTitle="Victor | UI/UX Designer"
+        description="Hey! I'm Victor, A UI/UX Designer and a College Student!"
         openGraph={{
           url: "https://www.github.com/mzmznasipadang",
-          title: "Victor | Frontend Developer",
+          title: "Victor | UI/UX Designer",
           description:
-            "Hey! I'm Victor, A Frontend Developer, Editor and a Student!",
+            "Hey! I'm Victor, A UI/UX Designer and a College Student!",
             images: [
               {
                 url: "https://i.imgur.com/WTOgWyP.png", 
                 width: 800,
                 height: 420,
-                alt: "Victor | Frontend Developer",
+                alt: "Victor | UI/UX Designer",
               },
             ],
         }}
@@ -62,7 +62,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             property: "keywords",
             content:
-              "Frontend Developer, Victor, victor, mzmznasipadang, Web Developer, web development, web developer, tech enthusiast, open source",
+              "Frontend Developer, UI/UX Designer, Victor, victor, mzmznasipadang, Web Developer, web development, web developer, tech enthusiast, open source",
           },
         ]}
       />

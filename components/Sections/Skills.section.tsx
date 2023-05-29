@@ -8,14 +8,14 @@ const Skills = () => {
       <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
-          <span className="text-white">NextJS</span>
+          <span className="text-white">JavaScript</span>
           &nbsp;as my Frontend Framework
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
-          <span className="text-white">React </span>
-          &nbsp;is I'm currently learning into
+          <span className="text-white">Swift and SwiftUI </span>
+          &nbsp;is I'm currently learning too
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
@@ -30,11 +30,17 @@ const Skills = () => {
           &nbsp;as my designing tool
         </p>
 
+        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
+          <BsArrowRightShort size="30" />
+          <span className="text-white">Spotify </span>
+          &nbsp;for accompaning me while pursuing my target
+        </p>
+
       </div>
 
       <p className="text-lg font-medium text-slate-300">
-        ...more skills include <span className="text-white">javascript</span>,{" "}
-        <span className="text-white">reactjs</span>,{" "}
+        ...more skills include <span className="text-white">NextJS</span>,{" "}
+        <span className="text-white">reactjs</span>{" "}
       </p>
     </div>
   );
