@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import { Analytics } from '@vercel/analytics/react';
 import "../styles/globals.css";
 
 import "@fontsource/jost/400.css";
@@ -15,6 +16,8 @@ import Script from "next/script";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Component {...pageProps} />
+      <Analytics />
       <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
